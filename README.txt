@@ -1,4 +1,4 @@
-LeagueDex
+# LeagueDex
 
 Link: https://leaguedex.firebaseapp.com/hw5/wireframes/index.html
 
@@ -11,7 +11,7 @@ will turn into an unfavorite button once it is in your list. Each champion also 
 and skins with links to each on the profile page.
 
 
-Code Architecture
+## Code Architecture
 
 It takes a small delay of time for the javascript functions to be called to update our HTML accordingly.
 
@@ -41,7 +41,7 @@ a function that directs the user to the home page.
 9. For the html files, the name of each file tell you which page of the website that the file is for.
 
 
-File organization
+## File organization
 
 
 1. The main directory of the project holds all the html pages for the application.
@@ -54,9 +54,7 @@ champion's item build, masteries, skins, and threats.
 4. The pics folder are all the pictures that are commonly used for each champion. Currently only the runes pictures are in this folder because runes are common for everyone
 throughout the game.
 
-
-
-Limitations / TODO's
+## Limitations / TODO's
 
 Because there are over one hundred champions that exist in League of Legends, it would be too much for us to manually get the pictures of all these champions and store it into the
 Firebase database. Along with all the champions that we haven't stored in the database, the information and images we need to get for each champion would be too much for us 
@@ -65,7 +63,7 @@ so that would mean we would have to take into account 18*12 = 216 numbers for a 
 be done, given the time we had. So for each category of information, the same information is displayed for each champion. An example, is that for skins category, the user will
 see the same five pictures even if they go to a different champion. 
 
-Performance
+## Performance
 
 The loading speed of the pages ranges from 3 to 7 seconds, depending on the page. The main page finishes loading
 at about 7.5 seconds on a 3G speed with no cache. The reason it runs the longest is because the amount of data and pictures needed to show on the main page, while it is also loading up the javascript files and
